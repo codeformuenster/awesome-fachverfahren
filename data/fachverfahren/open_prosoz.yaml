@@ -1,9 +1,19 @@
 id: open_prosoz
 name: Open ProSoz
-description: Offenes Fachverfahren für soziale Prozesse
-category: soziales
-provider_id: anbieter-a
-tags:
-  - open-source
-  - soziales
-website: https://openprosoz.example
+provider: Code for Germany
+categories:
+  - Soziales
+  - Jugendhilfe
+license: AGPL-3.0
+deployment:
+  - on-premise
+  - cloud
+technical:
+  language: Python
+  database: PostgreSQL
+interfaces:
+  - REST API
+open_source: true
+link: https://openprosoz.example
+description: >
+  Open source Fachverfahren für soziale Prozesse und Jugendhilfe-Management.

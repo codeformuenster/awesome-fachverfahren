@@ -1,9 +1,20 @@
 id: meso
-name: MESO
-description: Modell für elektronische Sozialleistungen
-category: soziales
-provider_id: kommunalsoft
-tags:
-  - kommerziell
-  - soziales
-website: https://meso.example
+name: VOIS|MESO
+provider: HSH Software
+categories:
+  - Meldewesen
+  - Bürgerdienste
+license: Proprietary
+deployment:
+  - on-premise
+  - cloud
+technical:
+  language: C#
+  database: MSSQL
+interfaces:
+  - XDM
+  - OSCI
+open_source: false
+link: https://www.hsh.de/
+description: >
+  Kommunales Fachverfahren für das Meldewesen.

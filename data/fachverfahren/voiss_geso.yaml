@@ -1,9 +1,17 @@
 id: voiss_geso
 name: VOISS GESO
-description: Fachverfahren für GESO-Daten
-category: verwaltung
-provider_id: anbieter-a
-tags:
-  - kommerziell
-  - geodata
-website: https://voiss.example
+provider: Vendor A
+categories:
+  - Verwaltung
+license: Proprietary
+deployment:
+  - cloud
+technical:
+  language: Java
+  database: PostgreSQL
+interfaces:
+  - OSCI
+open_source: false
+link: https://voiss.example
+description: >
+  Fachverfahren für GESO-Daten und geodätische Verwaltung.

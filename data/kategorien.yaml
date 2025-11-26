@@ -1,6 +1,15 @@
+- id: meldewesen
+  name: Meldewesen
+  description: Meldewesen und Bürgerangelegenheiten
+- id: buergerdienste
+  name: Bürgerdienste
+  description: Bürgerdienste und Bürgerservices
 - id: verwaltung
   name: Verwaltung
-  description: Prozesse und Anwendungen für allgemeine Verwaltungsaufgaben
+  description: Allgemeine Verwaltungsprozesse
 - id: soziales
   name: Soziales
-  description: Fachverfahren für Sozial- und Jugendhilfe
+  description: Soziale Dienste und Leistungen
+- id: jugendhilfe
+  name: Jugendhilfe
+  description: Jugend- und Familienleistungen

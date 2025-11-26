@@ -1,6 +1,9 @@
-- id: anbieter-a
-  name: Anbieter A
-  website: https://anbieter-a.example
-- id: kommunalsoft
-  name: KommunalSoft GmbH
-  website: https://kommunalsoft.example
+- id: hsh-software
+  name: HSH Software
+  website: https://www.hsh.de/
+- id: vendor-a
+  name: Vendor A
+  website: https://vendor-a.example
+- id: code-for-germany
+  name: Code for Germany
+  website: https://codefor.de/
