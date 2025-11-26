@@ -2,15 +2,26 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Fachverfahren",
   "type": "object",
-  "required": ["id", "name", "category", "provider_id", "website"],
+  "required": ["id", "name", "provider", "categories", "link"],
   "properties": {
-    "id": {"type": "string"},
-    "name": {"type": "string"},
-    "description": {"type": "string"},
-    "category": {"type": "string"},
-    "provider_id": {"type": "string"},
-    "tags": {"type": "array", "items": {"type": "string"}},
-    "website": {"type": "string", "format": "uri"}
+    "id": {"type": "string", "description": "Unique identifier"},
+    "name": {"type": "string", "description": "Name of the procedure"},
+    "description": {"type": "string", "description": "Description"},
+    "provider": {"type": "string", "description": "Provider name"},
+    "categories": {"type": "array", "items": {"type": "string"}, "description": "List of categories"},
+    "license": {"type": "string", "description": "License type (e.g. Proprietary, MIT, GPL)"},
+    "open_source": {"type": "boolean", "description": "Is open source?"},
+    "deployment": {"type": "array", "items": {"type": "string"}, "description": "Deployment options (e.g. on-premise, cloud)"},
+    "technical": {
+      "type": "object",
+      "properties": {
+        "language": {"type": "string", "description": "Programming language"},
+        "database": {"type": "string", "description": "Database system"}
+      },
+      "additionalProperties": true
+    },
+    "interfaces": {"type": "array", "items": {"type": "string"}, "description": "Interface standards (e.g. XDM, OSCI)"},
+    "link": {"type": "string", "format": "uri", "description": "Link to website or documentation"}
   },
   "additionalProperties": false
 }
