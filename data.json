@@ -1,0 +1,38 @@
+[
+  {
+    "id": "meso",
+    "name": "MESO",
+    "description": "Modell für elektronische Sozialleistungen",
+    "category": "soziales",
+    "provider_id": "kommunalsoft",
+    "tags": [
+      "kommerziell",
+      "soziales"
+    ],
+    "website": "https://meso.example"
+  },
+  {
+    "id": "open_prosoz",
+    "name": "Open ProSoz",
+    "description": "Offenes Fachverfahren für soziale Prozesse",
+    "category": "soziales",
+    "provider_id": "anbieter-a",
+    "tags": [
+      "open-source",
+      "soziales"
+    ],
+    "website": "https://openprosoz.example"
+  },
+  {
+    "id": "voiss_geso",
+    "name": "VOISS GESO",
+    "description": "Fachverfahren für GESO-Daten",
+    "category": "verwaltung",
+    "provider_id": "anbieter-a",
+    "tags": [
+      "kommerziell",
+      "geodata"
+    ],
+    "website": "https://voiss.example"
+  }
+]
