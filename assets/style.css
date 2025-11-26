@@ -1,5 +1,61 @@
-body { font-family: Arial, sans-serif; margin: 2rem; }
-h1 { color: #0b5; }
-#list { margin-top: 1rem; }
-.item { border-bottom: 1px solid #eee; padding: 0.5rem 0; }
-.item a { color: #0366d6; text-decoration: none }
+body {
+  font-family: Arial, sans-serif;
+  margin: 2rem;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #0b5;
+  margin-bottom: 0.5rem;
+}
+
+#list {
+  margin-top: 1rem;
+}
+
+.item {
+  border-bottom: 1px solid #eee;
+  padding: 1.5rem 0;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+.item strong {
+  font-size: 1.1em;
+}
+
+.item div {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.item table {
+  margin-top: 0.5rem;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95em;
+}
+
+.item td {
+  padding: 0.3rem 0;
+}
+
+.item td:first-child {
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.item em {
+  color: #666;
+}
