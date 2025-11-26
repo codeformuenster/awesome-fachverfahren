@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fachverfahren",
+  "type": "object",
+  "required": ["id", "name", "category", "provider_id", "website"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "category": {"type": "string"},
+    "provider_id": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "website": {"type": "string", "format": "uri"}
+  },
+  "additionalProperties": false
+}

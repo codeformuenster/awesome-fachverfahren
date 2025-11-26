@@ -1,0 +1,9 @@
+id: meso
+name: MESO
+description: Modell für elektronische Sozialleistungen
+category: soziales
+provider_id: kommunalsoft
+tags:
+  - kommerziell
+  - soziales
+website: https://meso.example

@@ -1,0 +1,22 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - 'docs/**'
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install deps
+        run: python3 -m pip install -r requirements.txt
+      - name: Build docs (if needed)
+        run: python3 scripts/build_index.py || true
+      - name: Link check
+        run: python3 scripts/link_check.py || true

@@ -1,0 +1,6 @@
+- id: anbieter-a
+  name: Anbieter A
+  website: https://anbieter-a.example
+- id: kommunalsoft
+  name: KommunalSoft GmbH
+  website: https://kommunalsoft.example

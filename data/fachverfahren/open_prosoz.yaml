@@ -1,0 +1,9 @@
+id: open_prosoz
+name: Open ProSoz
+description: Offenes Fachverfahren für soziale Prozesse
+category: soziales
+provider_id: anbieter-a
+tags:
+  - open-source
+  - soziales
+website: https://openprosoz.example

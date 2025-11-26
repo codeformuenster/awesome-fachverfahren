@@ -1,0 +1,9 @@
+id: voiss_geso
+name: VOISS GESO
+description: Fachverfahren für GESO-Daten
+category: verwaltung
+provider_id: anbieter-a
+tags:
+  - kommerziell
+  - geodata
+website: https://voiss.example
